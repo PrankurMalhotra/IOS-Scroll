@@ -12,6 +12,8 @@
 		12F2DD161C6941B700B71063 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F2DD141C6941B700B71063 /* Main.storyboard */; };
 		12F2DD181C6941B700B71063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12F2DD171C6941B700B71063 /* Assets.xcassets */; };
 		12F2DD1B1C6941B700B71063 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12F2DD191C6941B700B71063 /* LaunchScreen.storyboard */; };
+		12F2DD231C69444200B71063 /* SimpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F2DD221C69444200B71063 /* SimpleViewController.swift */; };
+		12F2DD251C69445300B71063 /* ComplexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F2DD241C69445300B71063 /* ComplexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		12F2DD171C6941B700B71063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12F2DD1A1C6941B700B71063 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12F2DD1C1C6941B700B71063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12F2DD221C69444200B71063 /* SimpleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleViewController.swift; sourceTree = "<group>"; };
+		12F2DD241C69445300B71063 /* ComplexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplexViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		12F2DD041C6941B700B71063 = {
 			isa = PBXGroup;
 			children = (
+				12F2DD241C69445300B71063 /* ComplexViewController.swift */,
+				12F2DD221C69444200B71063 /* SimpleViewController.swift */,
 				12F2DD0F1C6941B700B71063 /* ScrollViewController */,
 				12F2DD0E1C6941B700B71063 /* Products */,
 			);
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				12F2DD131C6941B700B71063 /* ViewController.swift in Sources */,
+				12F2DD251C69445300B71063 /* ComplexViewController.swift in Sources */,
 				12F2DD111C6941B700B71063 /* AppDelegate.swift in Sources */,
+				12F2DD231C69444200B71063 /* SimpleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
